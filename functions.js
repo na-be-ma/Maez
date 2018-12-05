@@ -18,6 +18,16 @@ function Maez(w, h) {
     }
     //todo create walls
     
+    function add_n(i, j) {
+        cells[i][j].classList.replace("n_off", "n_on");
+        if(i>0) cells[i-1][j].classList.replace("s_off", "s_on");
+    }
+    
+        function add_e(i, j) {
+        cells[i][j].classList.replace("e_off", "e_on");
+        if(i>0) cells[i-1][j].classList.replace("w_off", "w_on");
+    }
+    
     this.cells = cells;
     this.table = table;
 }
