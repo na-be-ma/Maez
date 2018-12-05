@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    outline: 2px solid purple;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+}
+
+.n_on {
+    
+}
+
+.s_on {
+    
+}
+
+.w_on {
+    
+}
+
+.e_on {
+    
+}
+
+.n_off {
+    border-top-style: hidden;
+}
+
+.s_off {
+    border-bottom-style: hidden;
+}
+
+.w_off {
+    border-left-style: hidden;
+}
+
+.e_off {
+    border-right-style: hidden;
+}

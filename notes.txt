@@ -1,0 +1,5 @@
+1.Generate table using JS
+2.keep track of current location
+3.Remove border
+4.move space
+
